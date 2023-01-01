@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    margin-top: 13px;
+
+    background-color: transparent;
+}
+
+/* ------logo start------- */
+.logo{
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    float: right;
+    text-align: center;
+
+}
+
+.header .logo h2 span{
+    color: #42b6da;
+    font-size: 46px;
+}
+
+.logo h2{
+    padding-top: 21px;
+    font-size: 35px;
+
+}
+
+/* ------logo end------- */
+
+/* ----------nav bar start ------- */
+
+.header .nav-bar {
+    width: 70%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.header div ul {
+    list-style: none;
+    font-family: 'Amiri', serif;
+    padding-top: 32px;
+
+}
+
+.header div ul li{
+    float: left;
+
+}
+.header div ul li button{
+    margin-left: 20px;
+    width: 102px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+.header div ul li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
+
+/* ----------nav bar end ------- */
+
+
+/* <!-- ---------body info start---------- --> */
+
+.break-after-nav{
+    width: 70%;
+    margin: auto;
+    height: 39px;
+    background-color: aquamarine;
+}
+
+
+.body-info{
+    background-color: #8080807a;
+    width: 70%;
+    margin: auto;
+
+}
+
+.div-photo{
+    background-color: transparent;
+    width: 50%;
+    height: 330px;
+    text-align: center;
+    float: left;
+}
+
+
+.body-info .div-photo .sigma-photo{
+    width: 100%;
+    
+}
+
+
+.info{
+    background-color: transparent;
+    width: 50%;
+    height: 330px;
+    float: right;
+    direction: rtl;
+}
+
+.info .h1-h2{
+    padding-top: 134px;
+}
+
+.info >div>h1{
+    font-size: 40px;
+    text-decoration: underline #42b6da 4px;
+}
+
+.info >div>h2{
+    font-family: 'Amiri', serif;
+    font-weight: 300;
+
+}
+
+/* <!-- ---------body info end---------- --> */
+.clear-after-float{
+    clear: both;
+}
+
+/* ----------------- */
+.for-button{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: transparent;
+    direction: rtl;
+    display: inline-block;
+}
+
+.for-button a{
+    background-color: #42b6da;
+    color: white;
+    float: right;
+    width: 100px;
+    height: 46px;
+    text-align: center;
+    font-size: 29px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: white;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+    box-shadow: -2px -7px 19px 0px #42b6da;
+}
+/* ---------------- */
+
+/* -------------another-info-1-start---------- */
+
+.another-info{
+    float: right;
+    background-color: rgb(245, 245, 245);
+    width: 35%;
+    margin-right: 15%;
+    height: fit-content;
+    direction: rtl;
+    font-family: 'Amiri', serif;
+    
+
+}
+
+.another-info .content>i {
+    color: #42b6da;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right:15px ;
+}
+.another-info .content> div>,p{
+    font-size:20px ;
+}
+.another-info .content> div>h2,p{
+    padding-right:15px ;
+}
+
+
+/* -------------another-info-1-end---------- */
+
+
+
+/* -------------another-info-2-start---------- */
+
+.another-info-2{
+    float: right;
+    background-color: rgb(245, 245, 245);
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 15%;
+    height: fit-content;
+    direction: rtl;
+    font-family: 'Amiri', serif;
+
+}
+
+.another-info-2 .content-2>i {
+    color: #42b6da;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right:15px ;
+}
+.another-info-2 .content-2> div>,p{
+    font-size:20px ;
+}
+.another-info-2 .content-2> div>.h2-3,p{
+    padding-right:15px ;
+}
+/* -------------another-info-2-end---------- */
+
+/* about us -start */
+.about-contaner{
+    margin-top:50px;
+    width: 70%;
+    margin-left: 15%;
+}
+.about-contaner .about-us-logo{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    float: right;
+}
+.about-contaner .about-us-logo img{
+    width: 100%;
+}
+
+.about-contaner .about-us-info {
+    background-color: transparent;
+    width: 50%;
+    direction: rtl;
+}
+.about-contaner .about-us-info >h2,p{
+    padding-right: 15px;
+    font-family: 'Amiri', serif;
+
+}
+
+
+
+
+
+/* about us -end */
+
+
+
+/* <!-- OUR SERVICE  START--> */
+
+.our-service-container{
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 70%;
+    height: fit-content;
+    margin-left: 15%;
+    margin-top: 50px;
+    
+
+}
+
+
+.our-service-container .service-info{
+    padding-top: 30px;
+}
+
+.our-service-container .service-cards{
+    height: 750px;
+
+    background-color: #42b6da;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+
+.our-service-container .service-cards .cards-style{
+    text-align: center;
+    background-color: #ffffff;
+    float: left;
+    width: 22.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: -27px;
+    height: 150px;
+}
+
+.service-cards .cards-style>h2 {
+    color: black;
+    
+
+}
+
+.service-cards .cards-style >i{
+    color: #42b6da;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.our-service-container .our-client{
+ padding-top: 50px;
+}
+
+
+
+/* <!-- contact us start --> */
+.frist-contact{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-us-parint{
+    float: right;
+    background-color: rgb(245, 245, 245);
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 15%;
+    height: fit-content;
+    direction: rtl;
+    font-family: 'Amiri', serif;
+}  
+
+.contact-us-parint div>h3>i{
+    color: #42b6da;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-us-parint >iframe{
+    padding-top: 20px;
+    width: 90%;
+    height: 320px;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
